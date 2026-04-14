@@ -1,0 +1,135 @@
+* {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: #130f0f;
+        }
+        header {
+            background: #800000;
+            font-family: 'Open Sans', sans-serif;
+            color: #fcbe14dd;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+        }
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+        nav a {
+            color: #fafaf7dd;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #0a0707;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        #home {
+            text-align: center;
+        }
+        #home .logo {
+            width: 150px;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+        }
+        .board-members {
+            margin-top: 2.5rem;
+        }
+        .board-members h3 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+        }
+        .board-grid {
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            align-items: start;
+        }
+        .board-card {
+            background: #f7f5f1;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 1rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+        .board-card img {
+            width: 100%;
+            border-radius: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            margin-bottom: 0.85rem;
+        }
+        .board-card h4 {
+            margin-bottom: 0.25rem;
+            font-size: 1.1rem;
+        }
+        .board-card p {
+            color: #555;
+            font-size: 0.95rem;
+        }
+        section {
+            display: none;
+        }
+        section.active {
+            display: block;
+        }
+        footer {
+            background: #800000;
+            color: #fcbe14dd;
+            text-align: center;
+        padding: 2rem;
+        margin-top: 3rem;
+    }
+    /* Hide all sections by default */
+section {
+    display: none;
+}
+
+/* Only the active section gets displayed */
+section.active {
+    display: block;
+}
+
+/* Optional: Smooth transition for images in the gallery */
+.slide {
+    animation: fade 0.5s ease-in-out;
+}
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #800000; /* Ensures the header isn't transparent */
+    
+    /* This is the magic number: 
+       Anything with a higher z-index stays on top. */
+    z-index: 9999 !important; 
+    
+    /* Optional: helps separate the header from the photos */
+    border-bottom: 2px solid #800000; 
+}
+/* Apply Poppins to the whole body */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; /* Regular weight for paragraphs */
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+

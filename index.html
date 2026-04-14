@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Minnesota Duluth Sales Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>University of Minnesota Duluth Sales Club</h2>
+            <div>
+                <a href="#" onclick="showPage('home')">Home</a>
+                <a href="#" onclick="showPage('events')">Events</a>
+                <a href="#" onclick="showPage('mentorship')">Mentorships & Alumni</a>
+                <a href="#" onclick="showPage('gallery')">Photo Gallery</a>
+            </div>
+        </nav>
+    </header>
+
+        <!-- Home Page -->
+        <section id="home" class="active" style="text-align: center; margin-top: 25px; margin-bottom: 25px;">
+            
+            
+            <div class="mission" style="display: flex; flex-direction: column; align-items: center;">
+            
+                <div style="position: relative; display: inline-block; width: 100%; height: auto;">
+                    <img src="images/lsbe-photo.jpg" alt="Sales Club" style="width: 100%; height: auto; opacity: 0.7;">
+                    <h1 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; width: 75%; font-size: 48px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">UMD Sales Club</h1> <h2 style="position: absolute; top: 65%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; width: 75%; font-size: 24px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Your destination for professional excellence.</h2>       
+                </div>
+                <h2 style="margin-top: 30px; margin-bottom: 10px;">About Us</h2>
+                <p style="text-align: center; width: 55%;">The Sales Club is a club designed to give students of any major a leg up on gaining real-world knowledge and career opportunities in sales. Students participating in Sales Club can expect to have opportunities at their disposal such as sales competitions, networking events, leadership opportunities, interview preparation, and community involvement. Our mission statement is to connect students to sales careers.</p>
+                <p style="text-align: center; width: 55%; margin-top: 20px;">Whether you're a seasoned sales pro or just starting to explore the world of sales, our club offers something for everyone. Join us to build your skills, expand your network, and take your career to the next level!</p>
+                <hr style="width: 80%; margin: 40px auto; border: none; border-top: 2px solid #ddd; margin-bottom: 20px;">
+            </div>
+            
+            <div class="board-members" style="margin-top: 20px;">
+                <h2>Meet Our 2026-2027 Team</h2>
+                <div class="members-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; padding: 40px 20px;">
+                    <div class="member-card" style="text-align: center; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+                        <img src="images/member-1.jpg" alt="Headshot" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
+                        <h2>Christian Dietz</h2>
+                        <p style="color: #43413ddd; font-weight: bold;">President of Administration</p>
+                    </div>
+                    <div class="member-card" style="text-align: center; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+                        <img src="images/member-2.jpg" alt="Headshot" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
+                        <h2>William Hornblad</h2>
+                        <p style="color: #43413ddd; font-weight: bold;">Sales Summit President</p>
+                    </div>
+                    <div class="member-card" style="text-align: center; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+                        <img src="images/member-3.jpg" alt="Headshot" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
+                        <h2>Paige Ondler</h2>
+                        <p style="color: #43413ddd; font-weight: bold;">Vice President of Company Relations</p>
+                    </div>
+                    <div class="member-card" style="text-align: center; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+                        <img src="images/member-4.jpg" alt="Headshot" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
+                        <h2>Jack German</h2>
+                        <p style="color: #43413ddd; font-weight: bold;">Vice President of Company Relations</p>
+                    </div>
+                    <div class="member-card" style="text-align: center; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+                        <img src="images/member-5.jpg" alt="Headshot" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
+                        <h2>Mitchell Erickson</h2>
+                        <p style="color: #43413ddd; font-weight: bold;">Vice President of Outreach & Financial Operations</p>
+                    </div>
+                    <div class="member-card" style="text-align: center; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+                        <img src="images/member-6.jpg" alt="Headshot" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
+                        <h2>Annika Wolters</h2>
+                        <p style="color: #43413ddd; font-weight: bold;">Graphic Design & Social Media Manager</p>
+                    </div>
+                    <div class="member-card" style="text-align: center; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+                        <img src="images/member-7.jpg" alt="Headshot" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
+                        <h2>John Marquette</h2>
+                        <p style="color: #43413ddd; font-weight: bold;">Director of Member Development & Strategic Engagement</p>
+                    </div>
+                    <div class="member-card" style="text-align: center; border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+                        <img src="images/member-8.jpg" alt="Headshot" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
+                        <h2>Jessica Gardner</h2>
+                        <p style="color: #43413ddd; font-weight: bold;">Faculty Advisor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <!-- Events Page -->
+        <section id="events">
+            <div style="position: relative; display: inline-block; width: 100%;">
+                <img src="images/events-banner.jpg" alt="Events" style="width: 100%; height: 300px; object-fit: cover; opacity: 0.7;">
+                <h1 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; width: 75%; font-size: 48px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Become Part of our Bulldog Community!</h1>
+                <p style="position: absolute; top: 65%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; width: 75%; font-size: 24px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); margin-top: 10px;">Stay updated on the Sales Club and our latest happenings. <a href="https://duluthumn.campusgroups.com/sales/home/" style="color: #800000; text-decoration: underline;">Join Now!</a></p>
+            </div>
+            <div class="events-calendar" style="max-width: 900px; margin: 40px auto; padding: 20px;">
+                <div class="upcoming-events" style="background-color: #f5f5f5; padding: 20px; border-radius: 8px;">
+                    <div style="display: flex; gap: 20px; align-items: flex-start;">
+                        <div style="flex: 1;">
+                            <h1>April Events</h1>
+                        </div>
+                        <div style="flex-shrink: 0;">
+                            <img src="images/sales-club-logo.jpg" alt="Sales Club Logo" style="width: 145px; height: 120px; object-fit: cover; border-radius: 8px;">
+                        </div>
+                    </div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 10px; border-bottom: 1px solid #ddd;"><strong>Sales Club Meeting</strong> - April 7th, 5:00-6:00 PM </li>
+                         <li style="padding: 10px; border-bottom: 1px solid #ddd;"><strong>Tour of Coordinated Business Office</strong> - April 14th, 5:00-6:00 PM</li>
+                        <li style="padding: 10px; border-bottom: 1px solid #ddd;"><strong>Tech Sales Panel</strong> - April 21st, 5:00-6:00 PM</li>
+                        <li style="padding: 10px; border-bottom: 1px solid #ddd;"><strong>End of Year Celebration</strong> - April 27th, 5:00-7:00 PM</li>
+                    </ul>
+                    <p style="margin-top: 20px; font-style: italic;">*All events are held in LSBE 125 unless otherwise noted.</p>
+                    <div style="margin-top: 20px; text-align: center;">
+                        <a href="https://calendar.google.com/calendar/u/0/embed?src=saleclub@d.umn.edu&ctz=America/Chicago" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <button style="background-color: #800000; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+                                View Full Calendar
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="major-event" style="max-width: 900px; margin: 40px auto; padding: 20px; background-color: #f1eee4dd; border-radius: 8px; text-align: center;">
+               
+                <div style="position: relative; display: inline-block; width: 100%; max-width: 600px;">
+                    <img src="images/sales-summit.jpg" alt="Sales Summit Event" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px; display: block; opacity: 0.6;">
+                    <h1 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; width: 90%; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Annual Sales Summit Event</h1> <h2 style="position: absolute; top: 65%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; width: 90%; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); font-size: 18px;">A day of learning, networking, and growth.</h2>
+                </div>
+                <p style="width: 70%; margin: 20px auto;">This event is designed to challenge you to think differently, sharpen your skills, and elevate how you show up in your market. Through practical insights, real-world strategies, and meaningful connections, you'll gain the tools and confidence to stand out, create value, and lead with intention in everything you do.</p>
+                <a href="https://lsbesalessummit.com" style="text-decoration: none;">
+                    <button style="background-color: #333; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-top: 10px; margin-bottom: 20px;">Learn More</button>
+                </a>
+            </div>
+        </section>
+
+        <!-- Mentorship & Alumni Page -->
+        <section id="mentorship">
+            <div style="position: relative; display: inline-block; width: 100%;">
+                <img src="images/mentorship-banner.jpg" alt="Mentorship & Alumni" style="width: 100%; height: 300px; object-fit: cover; opacity: 0.8;">
+                <h1 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; width: 75%; font-size: 48px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); line-height: 1.2;">
+                    <span style="display: block;">Mentorship Program &</span>
+                    <span style="display: block;">Alumni Highlights</span>
+                </h1> 
+            </div>
+            <div class="mentorship-program" style="max-width: 900px; margin: 40px auto; padding: 30px; background-color: #edefef; border-radius: 8px; text-align: center;">
+                <h2>Sales Club Mentorship Program</h2>
+                <p style="color: #800000; font-weight: bold; margin-top: 10px;">Bridging the experience gap through professional connections.</p>
+                <p style="font-size: 16px; line-height: 1.6; margin: 15px 0;">The Sales Club Mentorship Program fosters meaningful personal and professional connections between underclassmen and upperclassmen while building stronger bonds between new and veteran members. The goal is to inspire ongoing professional growth.</p>
+                <ul style="text-align: left; display: inline-block; margin: 20px 0; list-style-position: inside;">
+                    <li style="margin: 10px 0;">Career development strategies</li>
+                    <li style="margin: 10px 0;">Industry networking opportunities</li>
+                    <li style="margin: 10px 0;">Interview preparation and feedback</li>
+                </ul>
+                <p style="font-size: 16px; line-height: 1.6; margin: 15px 0;">Whether you're looking for guidance on career paths, interview prep, or just want to connect with someone who's been in your shoes, our mentorship program is here to support you every step of the way.</p>  
+
+            </div>
+            <div class="alumni-stories" style="max-width: 900px; margin: 40px auto; padding: 20px;">
+                <h2 style="text-align: center;">Alumni Highlights</h2>
+                <h4 style="color: #800000; font-weight: bold; margin-top: 10px; text-align: center;">Explore where they are in their professional career.</h4>
+                <ul style="list-style: none; padding: 0; margin-top: 20px;">
+                    <li style="padding: 10px; border-bottom: 1px solid #ddd;"><strong>Morgan Gacke</strong> - Account Executive at Cherry - <a href="https://www.linkedin.com/in/morgangacke/" style="color: #800000; text-decoration: underline;">View LinkedIn</a></li>
+                    <li style="padding: 10px; border-bottom: 1px solid #ddd;"><strong>Samuel Gomke</strong> - Technical Sales Engineer at Keyence Corporation - <a href="https://www.linkedin.com/in/samuelgomke/" style="color: #800000; text-decoration: underline;">View LinkedIn</a></li>
+                    <li style="padding: 10px; border-bottom: 1px solid #ddd;"><strong>Karie Hren</strong> - Assistant Marketing Manager at Ecolab - <a href="https://www.linkedin.com/in/karielenard/" style="color: #800000; text-decoration: underline;">View LinkedIn</a></li>
+                    <li style="padding: 10px; border-bottom: 1px solid #ddd;"><strong>Parker Schultz</strong> - Sales Representative at Graybar - <a href="https://www.linkedin.com/in/parkereschultz/" style="color: #800000; text-decoration: underline;">View LinkedIn</a></li>
+                    <li style="padding: 10px; border-bottom: 1px solid #ddd;"><strong>Kayla Rodenberg</strong> - Account Representative at Arctic Wolf - <a href="https://www.linkedin.com/in/kayla-rodenberg-nelson-4a3a4a172/" style="color: #800000; text-decoration: underline;">View LinkedIn</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Page -->
+        <section id="gallery">
+                <div style="position: relative; display: inline-block; width: 100%;">
+                    <div style="width: 100%; height: 150px; background-color: #ddd9d9;"></div>
+                    <h2 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; width: 75%; font-size: 36px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Moments from our Sales Club Events and Activities!</h2>
+                </div>
+            <div class="gallery-slider" style="max-width: 800px; margin: 40px auto; position: relative;">
+                <div class="slider-container" style="position: relative; overflow: hidden; border-radius: 8px;">
+                    <div class="slide" style="display: none;">
+                        <img src="images/gallery-photo-1.jpg" alt="Gallery Photo 1" style="width: 100%; height: 500px; object-fit: cover;">
+                        <p style="background-color: rgba(0,0,0,0.7); color: white; padding: 10px; margin: 0; text-align: center;">Caption for Photo 1</p>
+                    </div>
+                    <div class="slide" style="display: none;">
+                        <img src="images/gallery-photo-2.jpg" alt="Gallery Photo 2" style="width: 100%; height: 500px; object-fit: cover;">
+                        <p style="background-color: rgba(0,0,0,0.7); color: white; padding: 10px; margin: 0; text-align: center;">Caption for Photo 2</p>
+                    </div>
+                    <div class="slide" style="display: none;">
+                        <img src="images/gallery-photo-3.jpg" alt="Gallery Photo 3" style="width: 100%; height: 500px; object-fit: cover;">
+                        <p style="background-color: rgba(0,0,0,0.7); color: white; padding: 10px; margin: 0; text-align: center;">Caption for Photo 3</p>
+                    </div>
+                    <div class="slide" style="display: none;">
+                        <img src="images/gallery-photo-4.jpg" alt="Gallery Photo 4" style="width: 100%; height: 500px; object-fit: cover;">
+                        <p style="background-color: rgba(0,0,0,0.7); color: white; padding: 10px; margin: 0; text-align: center;">Caption for Photo 4</p>
+                    </div>
+                    <div class="slide" style="display: none;">
+                        <img src="images/gallery-photo-5.jpg" alt="Gallery Photo 5" style="width: 100%; height: 500px; object-fit: cover;">
+                        <p style="background-color: rgba(0,0,0,0.7); color: white; padding: 10px; margin: 0; text-align: center;">Caption for Photo 5</p>
+                    </div>
+                    <div class="slide" style="display: none;">
+                        <img src="images/gallery-photo-6.jpg" alt="Gallery Photo 6" style="width: 100%; height: 500px; object-fit: cover;">
+                        <p style="background-color: rgba(0,0,0,0.7); color: white; padding: 10px; margin: 0; text-align: center;">Caption for Photo 6</p>
+                    </div>
+                    <div class="slide" style="display: none;">
+                        <img src="images/gallery-photo-7.jpg" alt="Gallery Photo 7" style="width: 100%; height: 500px; object-fit: cover;">
+                        <p style="background-color: rgba(0,0,0,0.7); color: white; padding: 10px; margin: 0; text-align: center;">Caption for Photo 7</p>
+                    </div>
+                    <div class="slide" style="display: none;">
+                        <img src="images/gallery-photo-8.jpg" alt="Gallery Photo 8" style="width: 100%; height: 500px; object-fit: cover;">
+                        <p style="background-color: rgba(0,0,0,0.7); color: white; padding: 10px; margin: 0; text-align: center;">Caption for Photo 8</p>
+                    </div>
+                    <div class="slide" style="display: none;">
+                        <img src="images/gallery-photo-9.jpg" alt="Gallery Photo 9" style="width: 100%; height: 500px; object-fit: cover;">
+                        <p style="background-color: rgba(0,0,0,0.7); color: white; padding: 10px; margin: 0; text-align: center;">Caption for Photo 9</p>
+                    </div>
+                    <div class="slide" style="display: none;">
+                        <img src="images/gallery-photo-10.jpg" alt="Gallery Photo 10" style="width: 100%; height: 500px; object-fit: cover;">
+                        <p style="background-color: rgba(0,0,0,0.7); color: white; padding: 10px; margin: 0; text-align: center;">Caption for Photo 10</p>
+                    </div>
+                    <button onclick="changeSlide(-1)" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background-color: rgba(0,0,0,0.5); color: white; border: none; padding: 15px 20px; cursor: pointer; font-size: 24px; border-radius: 4px;">&#10094;</button>
+                    <button onclick="changeSlide(1)" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background-color: rgba(0,0,0,0.5); color: white; border: none; padding: 15px 20px; cursor: pointer; font-size: 24px; border-radius: 4px;">&#10095;</button>
+                </div>
+                <div style="text-align: center; margin-top: 15px;" id="dots">
+                    <span class="dot" onclick="currentSlide(0)" style="height: 12px; width: 12px; margin: 0 5px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+                    <span class="dot" onclick="currentSlide(1)" style="height: 12px; width: 12px; margin: 0 5px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+                    <span class="dot" onclick="currentSlide(2)" style="height: 12px; width: 12px; margin: 0 5px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+                    <span class="dot" onclick="currentSlide(3)" style="height: 12px; width: 12px; margin: 0 5px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+                    <span class="dot" onclick="currentSlide(4)" style="height: 12px; width: 12px; margin: 0 5px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+                    <span class="dot" onclick="currentSlide(5)" style="height: 12px; width: 12px; margin: 0 5px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+                    <span class="dot" onclick="currentSlide(6)" style="height: 12px; width: 12px; margin: 0 5px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+                    <span class="dot" onclick="currentSlide(7)" style="height: 12px; width: 12px; margin: 0 5px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+                    <span class="dot" onclick="currentSlide(8)" style="height: 12px; width: 12px; margin: 0 5px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+                    <span class="dot" onclick="currentSlide(9)" style="height: 12px; width: 12px; margin: 0 5px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+                </div>
+            </div>
+
+            <script>
+                let slideIndex = 0;
+                showSlide(slideIndex);
+
+                function changeSlide(n) {
+                    showSlide(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlide(slideIndex = n);
+                }
+
+                function showSlide(n) {
+                    let slides = document.querySelectorAll('.slide');
+                    let dots = document.querySelectorAll('.dot');
+                    if (n >= slides.length) { slideIndex = 0; }
+                    if (n < 0) { slideIndex = slides.length - 1; }
+                    slides.forEach(slide => slide.style.display = 'none');
+                    dots.forEach(dot => dot.style.backgroundColor = '#bbb');
+                    slides[slideIndex].style.display = 'block';
+                    dots[slideIndex].style.backgroundColor = '#717171';
+                }
+            </script>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 UMD Sales Club. All rights reserved.</p>
+        <p>Stay connected with us! <a href='https://www.instagram.com/umdsalesclub/' style="color: white;">Instagram</a> | <a href='https://www.linkedin.com/company/university-of-minnesota-duluth-professional-sales/' style="color: white;">LinkedIn</a> | <a href='https://duluthumn.campusgroups.com/feeds?type=club&type_id=35590&tab=about' style="color: white;">Bulldog Connect</a></p>
+    </footer>
+
+    <script>
+        function showPage(pageId) {
+            document.querySelectorAll('section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(pageId).classList.add('active');
+            return false;
+        }
+    </script>
+</body>
+</html>
